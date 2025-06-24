@@ -1,10 +1,12 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 function App() {
-  
-
-  return (
-  <div className="bg-red-500">home</div>
-  )
+    return (
+        <Router>
+            <NavBar />
+        </Router>
+    );
 }
 
-export default App
+export default App;
